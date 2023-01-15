@@ -1,76 +1,87 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Work Sans', sans-serif;
 }
 
 /* header-section */
-.header{
+.header {
     background-color: rgba(255, 144, 14, 0.1);
 }
-.navbar{
+
+.navbar {
     display: flex;
     justify-content: space-around;
     padding-top: 50px;
     align-items: center;
 }
-.nav-title{
+
+.nav-title {
     font-size: 45px;
     font-style: bold;
     color: #131313;
 }
-.navbar ul{
+
+.navbar ul {
     display: flex;
 }
-.navbar li{
+
+.navbar li {
     list-style: none;
     margin-right: 30px;
-    
+
 }
-.navbar li a{
+
+.navbar li a {
     text-decoration: none;
     font-size: 18px;
     font-style: bold;
     color: #424242;
     font-weight: 400px;
 }
-.navbar li a:hover{
+
+.navbar li a:hover {
     color: rgb(197, 77, 8);
 }
 
 /* banner-section-starts */
-.banner{
+.banner {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.banner-info{
+
+.banner-info {
     text-align: center;
 }
-.banner-title{
+
+.banner-title {
     color: #131313;
     font-size: 64px;
     font-style: bold;
     margin-bottom: 32px;
 }
-.banner-description{
+
+.banner-description {
     font-size: 16px;
     font-style: regular;
     color: #727272;
     margin-bottom: 32px;
 }
-.btn{
+
+.btn {
     border: none;
     background-color: #FF900E;
     width: 180px;
-    height:64px;
+    height: 64px;
     border-radius: 8px;
     color: white;
     font-size: 16px;
     font-weight: 400;
     margin: 50px 0 32px;
 }
-.banner-img{
+
+.banner-img {
     width: 1440px;
     height: 700px;
     border-radius: 8px;
@@ -78,45 +89,152 @@
 }
 
 /* main-section-1 starts */
-.sec-1{
+.sec-1 {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 73px;
     margin-top: 85px;
 }
-.sec-1-grid{
+
+.sec-1-grid {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-row-gap: 24px;
     grid-column-gap: 24px;
 }
-.sec-1-img{
+
+.sec-1-img {
     height: 342px;
     width: 342px;
     border-radius: 8px;
 }
-.span-gray{
+
+.span-gray {
     color: #727272;
     font-weight: 300px;
     font-style: regular;
     font-size: 45px;
 
 }
-.span-black{
-    color:  #131313;
+
+.span-black,
+
+.sec-title {
+    color: #131313;
     font-size: 45px;
     font-weight: 700px;
+    font-style: bold;
 }
 
-.span-orange{
+.span-orange {
     color: #FF900E;
     font-weight: 700px;
     font-size: 45px;
 }
-.sec-1-description{
+
+.section-description {
     font-size: 16px;
     font-style: regular;
     color: #727272;
     margin-top: 15px;
+}
+
+/* main-section-2-starts */
+.section-2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    grid-column-gap: 150px;
+    align-items: center;
+    
+    margin: 130px;
+}
+.sec-2-title{
+    border-left: 8px solid #FF900E;
+    padding-left: 20px;
+
+}
+.sec-2-detail {
+
+    height: 171px;
+    width: 586px;
+    padding: 30px 0  0 30px ;
+    border-radius: 8px;
+    background-color: #f8f8f8;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 20px 5px rgba(0, 0, 0, 0.06);
+
+
+}
+
+.sec-2-description {
+    margin: 24px 0 30px;
+
+}
+
+.sec-2-detail-title {
+    border-left: 3px #FF900E;
+    font-size: 20px;
+    font-style: semi-bold;
+    color: #131313;
+    margin-bottom: 5px;
+    
+}
+
+.sec-2-img{
+    
+    height: 982px;
+    width: 708px;
+    border-radius: 8px;
+   
+    
+}
+ .btn-2{
+    position:relative;
+     bottom:20% ;
+    right: -21%;
+    transform: translate(-70%, -60%);
+    
+    border: none;
+    background-color: #FF900E;
+    width: 342px;
+    height: 200px;
+    border-radius: 8px;
+    color: white;
+    font-size: 65px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 45px;
+   
+
+} 
+.span-btn-2{
+    font-size: 25px;
+}
+
+/* section-3-starts */
+.sec-3container{
+    display: flex;
+    
+    
+}
+.sec-3-details{
+    height: 240px;
+    width:240px;
+    border:1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 40px;
+}
+.sec-3-title{
+    color: #424242;
+    font-size: 45px;
+    font-style: SemiBold;
+    margin: 10px 0;
+
+}
+.sec-3-description{
+    color: #727272;
+    font-size: 20px;
 }
